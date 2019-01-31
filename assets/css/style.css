@@ -1,0 +1,42 @@
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 15%;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+h1 {
+    width: fit-content;
+    padding:10px;
+    position: absolute;
+    top:10px;
+    left:10px;
+    background:gray;
+}
+nav {
+    width: fit-content;
+    text-align: right;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+ul#navlist li{
+    display:inline;
+    padding: 10px;
+}
+
+
+main{
+    margin-top: 10%;
+}
+.crop{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
