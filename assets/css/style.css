@@ -3,40 +3,63 @@ html,body {
     width: 100%;
 }
 
-header{
-    height: 15%;
+.header{
+    height: 80px;
     overflow: hidden;
+    /* background-color: #333; */
+    position: fixed;
     top: 0;
     width: 100%;
+    border-bottom: 1px solid gray;
 }
 
 h1 {
-    width: fit-content;
+     /* width: fit-content; */
     padding:10px;
-    position: absolute;
+    /* margin-left: 50px; */
+    display: inline-block;
+    position: relative;
     top:10px;
     left:10px;
     background:gray;
+    /* vertical-align: baseline;  */
+    /* float: left; */
+    /* display: block; */
+    /* color: #f2f2f2; */
+    font-size: 30px;
 }
-nav {
+
+
+nav {    
     width: fit-content;
     text-align: right;
     position: absolute;
-    top: 40px;
-    right: 10px;
-}
-
-ul#navlist li{
-    display:inline;
+    top:40px;
+    right:10px;
+    color: gray;
+    text-align: center;
     padding: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
 }
 
+.a{
+    width: 100px;
+}
+/* nav a:hover {
+    background: #ddd;
+    color: gray;
+} */
 
-main{
-    margin-top: 10%;
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 200px; 
 }
-.crop{
-    height: 200px;
-    width: 200px;
-    overflow: hidden;
+
+.floatleft{
+    float: left;
+    position: relative;
 }
+
