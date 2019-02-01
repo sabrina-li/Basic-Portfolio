@@ -12,6 +12,7 @@ header{
     height: 80px;
     width: 100%;
     border-bottom: 1px solid gray;
+    z-index: 1;
 }
 
 h1 {
@@ -53,7 +54,7 @@ main {
 }
 
 #bio-main{
-    margin: 20px;
+    margin: 20px 200px ;
     background: white;
 }
 
@@ -92,6 +93,29 @@ footer {
     overflow: hidden;
 }
 
+#proto-main{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* grid-template-columns: auto auto auto auto; */
+    overflow: auto;
+    margin: 20px 200px;
+    background: white;
+}
+.square{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+}
 
-
-
+.protofoliolable{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background: gray;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
