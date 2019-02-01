@@ -50,12 +50,17 @@ main {
     overflow: auto;
     margin-top: 100px;   
     background: #C0C0C0;
-
+    /* text-align: center; */
 }
 
-#bio-main{
-    margin: 20px 200px ;
+#bio-main, #contact-main, #proto-main{
+    min-height: 100%;
+    padding: 20px;
+    /* margin: 20px 200px ; */
     background: white;
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
 }
 
 #about{
@@ -99,8 +104,6 @@ footer {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     /* grid-template-columns: auto auto auto auto; */
     overflow: auto;
-    margin: 20px 200px;
-    background: white;
 }
 .square{
     position: relative;
@@ -118,4 +121,24 @@ footer {
     width: 100%;
     text-align: center;
     font-size: 25px;
+}
+
+
+#contacttitle{
+    border-bottom: 1px solid gray;
+}
+
+input,label,textarea{
+    width: 80%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input{
+    border: 1px solid #ccc;
 }
