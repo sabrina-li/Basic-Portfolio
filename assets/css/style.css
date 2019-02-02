@@ -1,39 +1,65 @@
 html,body {
      height: 100%;
+     padding: 0;
+     margin: 0;
     /* width: 100%; */
     position: relative; 
+    color: #777777;
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 header{
+    width: 100%;
+    background-color: #ffffff;
     overflow: hidden;
-    background-color: white;
     position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     height: 80px;
-    width: 100%;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #cccccc;
     z-index: 1;
+}
+
+#myheader{
+    /* overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 80px;
+    
+    border-bottom: 1px solid #cccccc;
+    z-index: 1; */
+
+    width: 960px;
+
 }
 
 h1 {
     width: fit-content;
     padding:10px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     display: inline-block;
     position: absolute;
     top:10px;
-    left:10px;
-    background:gray;
+    left:0;
+    background: #4aaaa5;
     display: block;
-    color: #f2f2f2;
+    color: white;
     font-size: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
 }
 nav {    
     width: fit-content;
     text-align: right;
     position: absolute;
     top:40px;
-    right:10px;
+    right:0;
     text-align: center;
     padding: 10px;
     font-size: 25px;
@@ -41,7 +67,12 @@ nav {
     justify-content: space-between;
 }
 .a{
-    width: 100px;
+    /* width: 100px; */
+    padding: 0 10px;
+    color:#777777;
+}
+.a:hover{
+    background: #B5F6F3;
 }
 
 main {
@@ -49,8 +80,10 @@ main {
     min-height: 70%;
     overflow: auto;
     margin-top: 100px;   
-    background: #C0C0C0;
-    /* text-align: center; */
+    /* background: #C0C0C0; */
+    /* text-align: center; */  
+    background: url("../images/gravel.png");
+    background-repeat: repeat;
 }
 
 #bio-main, #contact-main, #proto-main{
@@ -61,6 +94,7 @@ main {
     width: 960px;
     margin: auto;
     margin-top: 20px;
+    border: 1px solid #dddddd;
 }
 
 #about{
@@ -68,6 +102,8 @@ main {
     width: 95%;
     border-bottom: 1px solid gray;
     vertical-align: center;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #bio-image{
@@ -84,14 +120,17 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2;
     font-size: 15px;
+    
 }
 
 footer {
     /* color: #707070; */
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
+    position: sticky;
     height: fit-content;
     font-size: small;
     width:100%;
+    background: #666666;
     /* float: none; */
     /* display: inline-block; */
     /* background: gray; */
