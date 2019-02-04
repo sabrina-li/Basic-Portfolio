@@ -6,6 +6,8 @@ html,body {
     position: relative; 
     color: #777777;
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url("../images/gravel.png");
+    background-repeat: repeat;
 }
 
 header{
@@ -77,13 +79,12 @@ nav {
 
 main {
     width: 100%;
-    min-height: 70%;
+    min-height: 81%;
     overflow: auto;
     margin-top: 100px;   
     /* background: #C0C0C0; */
     /* text-align: center; */  
-    background: url("../images/gravel.png");
-    background-repeat: repeat;
+
 }
 
 #bio-main, #contact-main, #proto-main{
@@ -99,7 +100,7 @@ main {
 
 #about{
     margin-left: 40px;
-    width: 95%;
+    width: 100%;
     border-bottom: 1px solid gray;
     vertical-align: center;
     color: #4aaaa5;
@@ -127,6 +128,7 @@ footer {
     /* color: #707070; */
     /* border: 1px solid gray; */
     position: sticky;
+    top: 95%;
     height: fit-content;
     font-size: small;
     width:100%;
@@ -135,6 +137,8 @@ footer {
     /* display: inline-block; */
     /* background: gray; */
     overflow: hidden;
+    text-align: center;
+    color:#ffffff;
 }
 
 #proto-main{
