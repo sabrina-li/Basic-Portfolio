@@ -171,7 +171,7 @@ footer {
     border-bottom: 1px solid gray;
 }
 
-input,label,textarea{
+input,label,textarea, .button{
     width: 80%;
     padding: 12px;
     border-radius: 4px;
@@ -184,4 +184,12 @@ input,label,textarea{
 
 input{
     border: 1px solid #ccc;
+}
+
+.button{
+    background: #4aaaa5;
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    border-radius: 0px;
 }
