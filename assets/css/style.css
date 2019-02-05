@@ -10,7 +10,7 @@ html,body {
     background-repeat: repeat;
 }
 
-header{
+header,#myheader{
     width: 100%;
     background-color: #ffffff;
     overflow: hidden;
@@ -25,19 +25,8 @@ header{
 }
 
 #myheader{
-    /* overflow: hidden;
-    background-color: #ffffff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    height: 80px;
-    
-    border-bottom: 1px solid #cccccc;
-    z-index: 1; */
-
     width: 960px;
+    position: relative;
 
 }
 
@@ -99,8 +88,8 @@ main {
 }
 
 #about{
-    margin-left: 40px;
-    width: 100%;
+    padding-left: 40px;
+    /* width: 100%; */
     border-bottom: 1px solid gray;
     vertical-align: center;
     color: #4aaaa5;
