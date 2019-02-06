@@ -136,14 +136,14 @@ footer {
 #proto-main{
     position: relative;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, 350px);
     /* grid-template-columns: auto auto auto auto; */
     overflow: auto;
 }
 .square{
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     margin: 50px;
 }
 
