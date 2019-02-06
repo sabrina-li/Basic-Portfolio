@@ -49,16 +49,19 @@ nav {
     width: fit-content;
     text-align: right;
     position: absolute;
-    top:40px;
+    top:30px;
     right:0;
     text-align: center;
     padding: 10px;
     font-size: 25px;
     display: flex;
     justify-content: space-between;
+    color: #dddddd;
 }
 .a{
     /* width: 100px; */
+    margin-bottom: 10px;
+    text-decoration: none;
     padding: 0 10px;
     color:#777777;
 }
