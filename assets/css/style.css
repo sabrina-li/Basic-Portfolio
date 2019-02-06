@@ -81,7 +81,7 @@ main {
 
 #bio-main, #contact-main, #proto-main{
     min-height: 100%;
-    padding: 20px;
+    /* padding: 20px; */
     /* margin: 20px 200px ; */
     background: white;
     width: 960px;
@@ -90,8 +90,8 @@ main {
     border: 1px solid #dddddd;
 }
 
-#about{
-    padding-left: 40px;
+#about, #contacttitle{
+    margin: 20px 40px;
     /* width: 100%; */
     border-bottom: 1px solid gray;
     vertical-align: center;
@@ -99,14 +99,14 @@ main {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-#bio-image{
+#bio-image,{
     /* display: inline-block; */
     /* padding: 0px 40px; */
     margin-right: 40px;
     float: left;
 }
-#bio-p{
-    margin-left: 40px;
+#bio-p,.contactform{
+    margin: 20px 40px;
     top: 0;
     bottom: auto;
     width: 90%;
@@ -186,4 +186,5 @@ input{
     width: 100px;
     border-radius: 0px;
     font-size: 18px;
+    /* margin-left:  40px; */
 }
