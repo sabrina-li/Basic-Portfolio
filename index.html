@@ -6,7 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Sabrina Li | Web developer</title>
         <link rel="stylesheet" href="assets/css/style.css">
-        <!-- <script src="loadbio.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>
+
+        <script src="loadbio.js"></script>
         <!-- <script data-require="jquery@1.11.3" data-semver="1.11.3" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
     </head>
     <body>
@@ -18,9 +20,9 @@
                 <nav> 
                     <a class="a" id="aboutbutton" href="index.html">about</a>
                     |
-                    <a class="a" id="protofoliobutton" href="protfolio.html">protofolio</a>
+                    <a class="a" id="protfoliobutton"  onclick="protClicked()">protofolio</a>
                     |
-                    <a class="a" id="contactbutton" href="contact.html">contact</a>
+                    <a class="a" id="contactbutton"  onclick="contactClicked()">contact</a>
                 </nav> 
             </div>
         </header>
