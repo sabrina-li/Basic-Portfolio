@@ -1,8 +1,7 @@
 function protClicked(){
-        $("#bio-main").load("portfolio.html"); 
-
+    $("#bio-main").load("portfolio.html"); 
 }
 
-function protClicked(){
+function contactClicked(){
     $("#bio-main").load("contact.html"); 
 }
