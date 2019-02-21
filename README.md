@@ -1,6 +1,6 @@
 # Basic-Portfolio  
 
-basic portfolia web design  
+basic portfolio with html+css 
 
 Github Page:
 
